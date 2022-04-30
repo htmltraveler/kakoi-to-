@@ -1,0 +1,277 @@
+*
+{
+ box-sizing:border-box ;
+
+}
+
+.container
+{
+ width:1117px ;
+ margin:0px auto ;
+}
+body
+{
+ margin:0px ;
+ font-family: 'Montserrat', sans-serif;
+}
+
+
+header
+{
+ background: #F9F6F1;
+ padding:64px 0px ;
+}
+
+.content
+{
+ display:flex ;
+ justify-content:space-between ;
+
+}
+
+
+header a
+{
+ margin-right:50px ;
+ color:#212121;
+ text-decoration:none;
+ font-weight: 500;
+ font-size: 14px;
+ letter-spacing: 0.03em;
+
+}
+ 
+header a:hover
+{
+ color: #7C5A42;
+}
+
+.shopcard
+{
+ background-color:#F9F6F1 ;
+ padding:70px 0px ;
+}
+
+.shopcard .left h2
+{
+ font-weight: 400px;
+ letter-spacing: 0.02em;
+ font-style: normal;
+ font-size: 30px;
+
+}
+
+.shopcard .left h1
+{
+ font-style: normal;
+ font-size: 55px;
+ letter-spacing: 0.01em;
+ font-weight: 700;
+}
+
+.shopcard .left p
+{
+width: 514px ;
+font-size: 16px;
+}
+
+.shopcard .left button, .gifts button
+{
+ margin-top:25px;
+ font-family: 'Montserrat';
+ background: #D7B399;
+ font-style: normal;
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+border:none;
+text-transform:uppercase;
+padding: 18px 30px 18px 30px ;
+
+}
+
+.shopcard  .left button:hover, .gifts  button:hover
+{
+ background: #7C5A42;
+}
+
+.shopcard .right h2
+{
+ font-style: normal;
+font-weight: 700;
+font-size: 24px;
+text-align: right;
+text-transform: uppercase;
+text-decoration-line: line-through;
+}
+
+.shopcard .right h1
+{
+ font-style: normal;
+font-weight: 700;
+font-size: 42px;
+color: #D84033;
+text-transform: uppercase;
+letter-spacing: 0.02em ;
+text-align:right;
+}
+
+.gifts h2
+{
+ font-weight: 700;
+font-size: 30px;
+text-align: center;
+align-self:center;
+}
+
+
+.gifts input
+{
+ background: #F9F6F1;
+border: 1px solid #000000;
+width: 255px;
+padding:13px 20px ;
+outline:none;
+margin-right:41px;
+}
+
+.gifts
+{
+ background-color: #F9F6F1 ;
+ padding:70px 0px;
+}
+
+footer .content
+{
+ display:flex;
+ justify-content:flex-end ;
+}
+
+footer
+{
+ background-color:#212121;
+ color:white;
+ padding:80px 0px ;
+}
+
+footer h3
+{
+ margin-bottom:20px ;
+ font-size: 10px;
+ text-transform:uppercase;
+}
+
+
+.links
+{
+    display:flex;
+    flex-direction:column;
+}
+
+
+.delivery h2
+{
+
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+color:white;
+text-align: center;
+
+}
+
+.delivery h1
+{
+
+font-style: normal;
+font-size: 21px;
+color:white;
+text-align: center;
+font-weight: 300;
+}
+
+.delivery span
+{
+ font-weight:normal;
+ letter-spacing: 0.02em;
+ font-style: normal;
+ font-size: 30px;
+
+}
+.delivery
+{
+ background-color:#212121;
+ padding:70px 0px ;
+}
+
+.delivery .content
+{
+ display:block ;
+}
+
+footer a
+{
+ color: #CBCFD4;
+ text-decoration:none ;
+ font-size: 14px;
+ padding:10px 0px;
+}
+
+.links:nth-child(1)
+{
+ margin-right:84px ;
+
+}
+
+.links:nth-child(2)
+{
+ margin-right:76px;
+}
+
+.links:nth-child(3)
+{
+ margin-right:60px ;
+}
+
+#vkcom
+{
+ background-image:url(vk.png);
+
+}
+
+#facebook
+{
+ background-image:url(fb.png);
+}
+
+#instagram
+{
+ background-image:url(inst.png);
+}
+
+#vkcom,#facebook,#instagram
+{
+ background-repeat:no-repeat;
+ background-position:left center;
+ padding-left:29px;
+}
+
+.privacy
+{
+ background: #E5E5E5;
+ padding:30px 0px 5px 0px;
+}
+
+.privacy a
+{
+ text-decoration:none;
+ color:black;
+
+}
+
+.privacy a:hover
+{
+ text-decoration-line: underline;
+}
+/*сверстать блок доставки*/
